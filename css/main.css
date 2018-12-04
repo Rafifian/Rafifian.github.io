@@ -24,13 +24,24 @@ a:active {
     text-decoration: underline;
 }
 
+#outerContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex-basis: 37.5%;
+}
+
+#innerContainer {
+    flex-basis: 25%;
+}
+
 #title {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .module {
-    margin-left: 35rem;
-    margin-right: 35rem;
     text-align: left;
 }
 
