@@ -24,6 +24,29 @@ a:active {
     text-decoration: underline;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    flex-basis: 75%;
+    padding: -3rem;
+}
+
+#menu {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menuItem {
+    flex-basis: 1;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 #outerContainer {
     display: flex;
     flex-direction: row;
@@ -43,6 +66,8 @@ a:active {
 
 .module {
     text-align: left;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
 }
 
 .moduleTitle {
