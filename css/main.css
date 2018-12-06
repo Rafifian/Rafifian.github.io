@@ -31,7 +31,6 @@ header {
 
 #title {
     flex-basis: 75%;
-    padding: -3rem;
 }
 
 #menu {
@@ -39,6 +38,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-weight: bold;
 }
 
 .menuItem {
