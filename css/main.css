@@ -50,6 +50,7 @@ header {
 #outerContainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .sidebar {
@@ -72,4 +73,9 @@ header {
 
 .moduleTitle {
     text-align: center;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.5rem;
 }
