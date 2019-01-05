@@ -69,10 +69,15 @@ header {
     text-align: left;
     margin-bottom: 4rem;
     margin-top: 2rem;
+    align-content: center;
 }
 
 .moduleTitle {
     text-align: center;
+}
+
+.audio {
+    margin-top: 2rem;
 }
 
 footer {
