@@ -9,7 +9,7 @@ a {
 }
 
 a:link {
-    text-emphasis: bold;
+    text-emphasis: none;
 }
 
 a:visited {
