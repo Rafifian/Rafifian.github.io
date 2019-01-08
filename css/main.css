@@ -69,15 +69,23 @@ header {
     text-align: left;
     margin-bottom: 4rem;
     margin-top: 2rem;
-    align-content: center;
 }
 
 .moduleTitle {
     text-align: center;
 }
 
+.media {
+    text-align: center;
+}
+
+.score {
+    display: inline-block;
+}
+
 .audio {
     margin-top: 2rem;
+    display: inline-block;
 }
 
 footer {
