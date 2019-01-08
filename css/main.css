@@ -9,7 +9,7 @@ a {
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration: bold;
 }
 
 a:visited {
@@ -84,6 +84,11 @@ header {
 }
 
 .audio {
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.video {
     margin-top: 0.5rem;
     display: inline-block;
 }
