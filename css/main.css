@@ -9,7 +9,7 @@ a {
 }
 
 a:link {
-    text-emphasis: none;
+    font-weight: bold;
 }
 
 a:visited {
@@ -89,8 +89,7 @@ header {
 }
 
 .video {
-    margin-top: 0.5rem;
-    display: inline-block;
+    margin: 0 auto;
 }
 
 footer {
