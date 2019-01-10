@@ -55,6 +55,17 @@ header {
 
 .sidebar {
     flex-basis: 37.5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebarTitle {
+    text-emphasis: bold;
+    flex-basis: 20%;
+}
+
+.sidebarContent {
+    flex-basis: 80%;
 }
 
 #innerContainer {
