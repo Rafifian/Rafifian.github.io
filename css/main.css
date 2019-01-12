@@ -9,7 +9,7 @@ a {
 }
 
 a:link {
-    font-weight: bold;
+    text-emphasis: none;
 }
 
 a:visited {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header {
@@ -55,17 +55,17 @@ header {
 
 .sidebar {
     flex-basis: 37.5%;
-    flex-direction: column;
     justify-content: center;
 }
 
 .sidebarTitle {
     text-emphasis: bold;
-    flex-basis: 20%;
 }
 
 .sidebarContent {
-    flex-basis: 80%;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #innerContainer {
